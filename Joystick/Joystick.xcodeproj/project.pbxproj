@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				11D0F82F21E7EBE4006080CB /* AppDelegate.swift */,
-				11D0F83121E7EBE4006080CB /* ViewController.swift */,
-				11D0F83321E7EBE4006080CB /* Main.storyboard */,
-				11D0F83621E7EBE5006080CB /* Assets.xcassets */,
-				11D0F83821E7EBE5006080CB /* LaunchScreen.storyboard */,
-				11D0F83B21E7EBE5006080CB /* Info.plist */,
+				11D0F86421E83A5A006080CB /* Models */,
+				11D0F86321E83A57006080CB /* Controllers */,
+				11D0F86221E83A55006080CB /* Views */,
+				11D0F85F21E83A42006080CB /* Resources */,
+				11D0F86021E83A4A006080CB /* Supporting Files */,
 			);
 			path = Joystick;
 			sourceTree = "<group>";
@@ -123,6 +123,47 @@
 				11D0F85121E7EBE5006080CB /* Info.plist */,
 			);
 			path = JoystickUITests;
+			sourceTree = "<group>";
+		};
+		11D0F85F21E83A42006080CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F83621E7EBE5006080CB /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11D0F86021E83A4A006080CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F83B21E7EBE5006080CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11D0F86221E83A55006080CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F83321E7EBE4006080CB /* Main.storyboard */,
+				11D0F83821E7EBE5006080CB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11D0F86321E83A57006080CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F83121E7EBE4006080CB /* ViewController.swift */,
+			);
+			name = Controllers;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		11D0F86421E83A5A006080CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
